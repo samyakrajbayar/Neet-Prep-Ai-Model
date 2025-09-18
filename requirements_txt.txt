@@ -1,0 +1,42 @@
+# NEET AI Preparation System Requirements
+
+# Discord Bot
+discord.py==2.3.2
+
+# AI/ML Libraries
+openai==0.28.1
+transformers==4.35.2
+torch==2.1.1
+
+# Database
+sqlite3  # Built-in with Python
+
+# Web scraping (for PYQ collection)
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.3
+json5==0.9.14
+
+# Utilities
+python-dotenv==1.0.0
+asyncio  # Built-in
+datetime  # Built-in
+random  # Built-in
+typing  # Built-in
+dataclasses  # Built-in
+
+# Progress tracking and analytics
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# PDF processing (for PYQ PDFs)
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# Optional: For advanced NLP features
+nltk==3.8.1
+spacy==3.7.2
